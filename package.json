@@ -1,22 +1,19 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ehajek/portfolio-generator.git"
-  },
-  "author": "Eddie Hajek",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ehajek/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/ehajek/portfolio-generator#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.1.2"
+    "inquirer": "^7.0.3"
   }
 }
